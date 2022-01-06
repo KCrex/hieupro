@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .body {
+            display: flex;
+        }
+
+        .col-left {
+            width: 30%;
+            height: 900px;
+            background-color: darkorange;
+        }
+
+        .col-right {
+            width: 70%;
+            height: 900px;
+        }
+
+        .col-right-top {
+            display: flex;
+            width: 100%;
+            height: 450px;
+        }
+
+        .col-right-top-left {
+            width: 50%;
+            height: 450px;
+            background-color: darksalmon;
+        }
+
+        .col-right-top-right {
+            width: 50%;
+            height: 450px;
+        }
+
+        .col-right-top-right-top {
+            width: 100%;
+            height: 225px;
+            background-color: darkslateblue;
+        }
+
+        .col-right-top-right-bot {
+            width: 100%;
+            height: 225px;
+            background-color: darkturquoise;
+        }
+
+        .col-right-bot {
+            display: flex;
+            width: 100%;
+            height: 450px;
+        }
+
+        .col-right-bot-left {
+            width: 50%;
+            height: 450px;
+            background-color: deeppink;
+        }
+
+        .col-right-bot-right {
+            width: 50%;
+            height: 450px;
+            background-color: dimgray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body">
+        <div class="col-left"></div>
+        <div class="col-right">
+            <div class="col-right-top">
+                <div class="col-right-top-left"></div>
+                <div class="col-right-top-right">
+                    <div class="col-right-top-right-top"></div>
+                    <div class="col-right-top-right-bot"></div>
+                </div>
+            </div>
+            <div class="col-right-bot">
+                <div class="col-right-bot-left"></div>
+                <div class="col-right-bot-right"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
